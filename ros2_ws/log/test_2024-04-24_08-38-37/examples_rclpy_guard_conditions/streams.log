@@ -1,0 +1,35 @@
+[0.226s] Invoking command in '/home/houyepu/ros2_ws/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/home/houyepu/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions:/home/houyepu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.528s] [1m============================= test session starts ==============================[0m
+[0.529s] platform linux -- Python 3.10.12, pytest-8.1.1, pluggy-1.4.0
+[0.535s] cachedir: /home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache
+[0.540s] rootdir: /home/houyepu/ros2_ws/src/examples/rclpy
+[0.540s] configfile: pytest.ini
+[0.540s] plugins: ament-flake8-0.12.10, ament-copyright-0.12.10, launch-testing-ros-0.19.7, ament-pep257-0.12.10, ament-xmllint-0.12.10, launch-testing-1.0.5, ament-lint-0.12.10, rerunfailures-14.0, cov-5.0.0, repeat-0.9.3, colcon-core-0.16.1
+[0.620s] [1mcollecting ... [0m[1m
+[0.621s] collected 0 items / 1 error                                                    [0m
+[0.673s] 
+[0.673s] ==================================== ERRORS ====================================
+[0.673s] [31m[1m____________________ ERROR collecting guard_conditions/test ____________________[0m
+[0.674s] [1m[31m/usr/local/lib/python3.10/dist-packages/pluggy/_hooks.py[0m:501: in __call__
+[0.725s]     [0m[94mreturn[39;49;00m [96mself[39;49;00m._hookexec([96mself[39;49;00m.name, [96mself[39;49;00m._hookimpls.copy(), kwargs, firstresult)
+[0.725s] [1m[31m/usr/local/lib/python3.10/dist-packages/pluggy/_manager.py[0m:119: in _hookexec
+[0.725s]     [0m[94mreturn[39;49;00m [96mself[39;49;00m._inner_hookexec(hook_name, methods, kwargs, firstresult)
+[0.725s] [1m[31m/usr/local/lib/python3.10/dist-packages/_pytest/python.py[0m:225: in pytest_collect_file
+[0.726s]     [0mmodule: Module = ihook.pytest_pycollect_makemodule(
+[0.726s] [1m[31m/usr/local/lib/python3.10/dist-packages/_pytest/config/compat.py[0m:79: in fixed_hook
+[0.726s]     [0m[94mreturn[39;49;00m hook(**kw)
+[0.726s] [1m[31m/usr/local/lib/python3.10/dist-packages/pluggy/_hooks.py[0m:501: in __call__
+[0.726s]     [0m[94mreturn[39;49;00m [96mself[39;49;00m._hookexec([96mself[39;49;00m.name, [96mself[39;49;00m._hookimpls.copy(), kwargs, firstresult)
+[0.726s] [1m[31m/usr/local/lib/python3.10/dist-packages/pluggy/_manager.py[0m:119: in _hookexec
+[0.727s]     [0m[94mreturn[39;49;00m [96mself[39;49;00m._inner_hookexec(hook_name, methods, kwargs, firstresult)
+[0.727s] [1m[31m/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py[0m:188: in pytest_pycollect_makemodule
+[0.727s]     [0mentrypoint = find_launch_test_entrypoint(path)
+[0.727s] [1m[31m/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py[0m:178: in find_launch_test_entrypoint
+[0.728s]     [0mmodule = import_path(path, root=[94mNone[39;49;00m)
+[0.728s] [1m[31mE   TypeError: import_path() missing 1 required keyword-only argument: 'consider_namespace_packages'[0m
+[0.728s] - generated xml file: /home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml -
+[0.728s] [36m[1m=========================== short test summary info ============================[0m
+[0.728s] [31mERROR[0m test - TypeError: import_path() missing 1 required keyword-only argument: 'conside...
+[0.729s] !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+[0.729s] [31m=============================== [31m[1m1 error[0m[31m in 0.20s[0m[31m ===============================[0m
+[0.878s] Invoked command in '/home/houyepu/ros2_ws/src/examples/rclpy/guard_conditions' returned '2': AMENT_PREFIX_PATH=/home/houyepu/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/houyepu/ros2_ws/build/examples_rclpy_guard_conditions:/home/houyepu/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

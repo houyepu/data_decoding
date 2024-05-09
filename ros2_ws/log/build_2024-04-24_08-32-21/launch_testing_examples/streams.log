@@ -1,0 +1,25 @@
+[0.805s] Invoking command in '/home/houyepu/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/houyepu/ros2_ws/build/launch_testing_examples/prefix_override:/home/houyepu/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/houyepu/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[1.323s] running develop
+[1.324s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.324s]   warnings.warn(
+[1.535s] running egg_info
+[1.535s] creating launch_testing_examples.egg-info
+[1.535s] writing launch_testing_examples.egg-info/PKG-INFO
+[1.535s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[1.535s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[1.535s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[1.535s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[1.536s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.538s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.539s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[1.541s] running build_ext
+[1.542s] Creating /home/houyepu/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[1.543s] 
+[1.543s] Installed /home/houyepu/ros2_ws/build/launch_testing_examples
+[1.543s] running symlink_data
+[1.543s] creating /home/houyepu/ros2_ws/install/launch_testing_examples/share/ament_index
+[1.543s] creating /home/houyepu/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[1.544s] creating /home/houyepu/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.544s] symbolically linking /home/houyepu/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/houyepu/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[1.544s] symbolically linking /home/houyepu/ros2_ws/build/launch_testing_examples/package.xml -> /home/houyepu/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[1.594s] Invoked command in '/home/houyepu/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/houyepu/ros2_ws/build/launch_testing_examples/prefix_override:/home/houyepu/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/houyepu/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

@@ -1,0 +1,28 @@
+[0.825s] Invoking command in '/home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps symlink_data
+[1.229s] running develop
+[1.230s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.230s]   warnings.warn(
+[1.457s] running egg_info
+[1.457s] creating examples_rclpy_minimal_publisher.egg-info
+[1.458s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.458s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.459s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.459s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.459s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.459s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.464s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.465s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.466s] running build_ext
+[1.467s] Creating /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.468s] Installing publisher_local_function script to /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.468s] Installing publisher_member_function script to /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.468s] Installing publisher_old_school script to /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.469s] 
+[1.469s] Installed /home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher
+[1.469s] running symlink_data
+[1.469s] creating /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index
+[1.469s] creating /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[1.469s] creating /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.470s] symbolically linking /home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher/resource/examples_rclpy_minimal_publisher -> /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.470s] symbolically linking /home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher/package.xml -> /home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[1.512s] Invoked command in '/home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/houyepu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/houyepu/ros2_ws/build/examples_rclpy_minimal_publisher/build --no-deps symlink_data

@@ -1,0 +1,73 @@
+[0.037s] Invoking command in '/home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/houyepu/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service
+[0.256s] -- The C compiler identification is GNU 11.4.0
+[0.446s] -- The CXX compiler identification is GNU 11.4.0
+[0.461s] -- Detecting C compiler ABI info
+[0.723s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.743s] -- Detecting C compile features - done
+[0.747s] -- Detecting CXX compiler ABI info
+[0.901s] -- Detecting CXX compiler ABI info - done
+[0.917s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.919s] -- Detecting CXX compile features
+[0.921s] -- Detecting CXX compile features - done
+[0.925s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.355s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.476s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.532s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.539s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.551s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.602s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.887s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.984s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.987s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.124s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.164s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.248s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.264s] -- Looking for pthread.h
+[2.340s] -- Looking for pthread.h - found
+[2.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.429s] -- Found Threads: TRUE  
+[2.774s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.895s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.896s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.897s] -- Configured cppcheck include dirs: 
+[2.897s] -- Configured cppcheck exclude dirs and/or files: 
+[2.904s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.904s] -- Configured cpplint exclude dirs and/or files: 
+[2.905s] -- Added test 'lint_cmake' to check CMake code style
+[2.906s] -- Added test 'uncrustify' to check C / C++ code style
+[2.907s] -- Configured uncrustify additional arguments: 
+[2.907s] -- Added test 'xmllint' to check XML markup files
+[2.910s] -- Configuring done
+[2.925s] -- Generating done
+[2.928s] -- Build files have been written to: /home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service
+[2.941s] Invoked command in '/home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/houyepu/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service
+[2.941s] Invoking command in '/home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[3.004s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[9.463s] [100%] [32m[1mLinking CXX executable service_main[0m
+[9.656s] [100%] Built target service_main
+[9.672s] Invoked command in '/home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[9.699s] Invoking command in '/home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service
+[9.708s] -- Install configuration: ""
+[9.709s] -- Execute custom install script
+[9.709s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[9.721s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[9.736s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[9.745s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[9.754s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[9.767s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[9.776s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[9.785s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[9.793s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[9.803s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[9.812s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[9.828s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[9.838s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[9.846s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[9.856s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[9.865s] -- Symlinking: /home/houyepu/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[9.880s] Invoked command in '/home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/houyepu/ros2_ws/build/examples_rclcpp_minimal_service

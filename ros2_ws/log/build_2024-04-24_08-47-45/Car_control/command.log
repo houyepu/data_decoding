@@ -1,0 +1,6 @@
+Invoking command in '/home/houyepu/ros2_ws/build/Car_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/houyepu/ros2_ws/src/Car_control -DCMAKE_INSTALL_PREFIX=/home/houyepu/ros2_ws/install/Car_control
+Invoked command in '/home/houyepu/ros2_ws/build/Car_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/houyepu/ros2_ws/src/Car_control -DCMAKE_INSTALL_PREFIX=/home/houyepu/ros2_ws/install/Car_control
+Invoking command in '/home/houyepu/ros2_ws/build/Car_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/houyepu/ros2_ws/build/Car_control -- -j4 -l4
+Invoked command in '/home/houyepu/ros2_ws/build/Car_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/houyepu/ros2_ws/build/Car_control -- -j4 -l4
+Invoking command in '/home/houyepu/ros2_ws/build/Car_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/houyepu/ros2_ws/build/Car_control
+Invoked command in '/home/houyepu/ros2_ws/build/Car_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/houyepu/ros2_ws/build/Car_control

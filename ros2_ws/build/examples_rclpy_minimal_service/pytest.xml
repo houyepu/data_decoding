@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.145" timestamp="2024-04-24T08:38:45.366029" hostname="houyepu"><testcase classname="examples_rclpy_minimal_service" name="services.minimal_service.test" time="0.000"><error message="collection failure">/usr/local/lib/python3.10/dist-packages/pluggy/_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+/usr/local/lib/python3.10/dist-packages/pluggy/_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+/usr/local/lib/python3.10/dist-packages/_pytest/python.py:225: in pytest_collect_file
+    module: Module = ihook.pytest_pycollect_makemodule(
+/usr/local/lib/python3.10/dist-packages/_pytest/config/compat.py:79: in fixed_hook
+    return hook(**kw)
+/usr/local/lib/python3.10/dist-packages/pluggy/_hooks.py:501: in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+/usr/local/lib/python3.10/dist-packages/pluggy/_manager.py:119: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py:188: in pytest_pycollect_makemodule
+    entrypoint = find_launch_test_entrypoint(path)
+/opt/ros/humble/lib/python3.10/site-packages/launch_testing/pytest/hooks.py:178: in find_launch_test_entrypoint
+    module = import_path(path, root=None)
+E   TypeError: import_path() missing 1 required keyword-only argument: 'consider_namespace_packages'</error></testcase></testsuite></testsuites>
